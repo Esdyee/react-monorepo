@@ -12,9 +12,13 @@
     "build:app2": "yarn workspace app2 build",
     "test:app1": "yarn workspace app1 test",
     "test:app2": "yarn workspace app2 test",
-    "build:all": "yarn workspaces run build"
+    "build:all": "yarn workspaces run build",
+    "build:shared": "yarn workspace shared build"
   },
   "devDependencies": {
     "lerna": "^6.0.0"
+  },
+  "resolutions": {
+    "typescript": "^4.9.5"
   }
 }
