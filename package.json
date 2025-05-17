@@ -8,10 +8,13 @@
   "scripts": {
     "start:app1": "yarn workspace app1 start",
     "start:app2": "yarn workspace app2 start",
+    "start:pattern": "yarn workspace pattern start",
     "build:app1": "yarn workspace app1 build",
     "build:app2": "yarn workspace app2 build",
+    "build:pattern": "yarn workspace pattern build",
     "test:app1": "yarn workspace app1 test",
     "test:app2": "yarn workspace app2 test",
+    "test:pattern": "yarn workspace pattern test",
     "build:all": "yarn workspaces run build",
     "build:shared": "yarn workspace shared build"
   },
