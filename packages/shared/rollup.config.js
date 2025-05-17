@@ -18,8 +18,11 @@ module.exports = {
   plugins: [
     peerDepsExternal(),
     typescript({
-      useTsconfigDeclarationDir: true,
       tsconfigOverride: {
+        compilerOptions: {
+          declaration: true,
+          declarationDir: 'dist',
+        },
         exclude: ['**/*.test.ts', '**/*.test.tsx'],
       },
     }),
