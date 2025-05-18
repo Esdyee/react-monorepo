@@ -23,5 +23,8 @@
   },
   "resolutions": {
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.6.0"
   }
 }
