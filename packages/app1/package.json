@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "shared": "^1.0.0"
+    "shared": "workspace:*"
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
